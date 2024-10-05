@@ -10,6 +10,10 @@ li {
   overflow: hidden;
 }
 
+.flex-list {
+  display: flex;
+}
+
 .profile-img-container-float {
   margin: 10px;
   width: 64px;
@@ -18,7 +22,18 @@ li {
   float: inline-start;
 }
 
+.profile-img-container-flex {
+  margin: 10px;
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+
 .profile-img-container-float > img {
+  border-radius: 50%;
+}
+
+.profile-img-container-flex > img {
   border-radius: 50%;
 }
 
