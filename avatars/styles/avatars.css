@@ -1,0 +1,41 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+.float-list {
+  overflow: hidden;
+}
+
+.profile-img-container-float {
+  margin: 10px;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  float: inline-start;
+}
+
+.profile-img-container-float > img {
+  border-radius: 50%;
+}
+
+.user-state {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 17.78px;
+  height: 17.78px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.active {
+  background-color: #4cfe88;
+}
+
+.unactive {
+  background-color: #dbdbdb;
+}
